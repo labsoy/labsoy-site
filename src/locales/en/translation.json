@@ -1,0 +1,715 @@
+{
+  "layout": {
+    "skipToMain": "Skip to main content"
+  },
+  "header": {
+    "homeAria": "Labsoy Home",
+    "navAria": "Main Navigation",
+    "home": "Home",
+    "brandTagline": "Technologies & Digital Solutions",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "languageSelectAria": "Select language",
+    "languageToggleToTrAria": "Switch to Turkish",
+    "languageToggleToEnAria": "Switch to English",
+    "openMenuAria": "Open menu",
+    "closeMenuAria": "Close menu"
+  },
+  "headerMenu": {
+    "popular": "Software and Technology",
+    "staffPicks": "AI and Smart Systems",
+    "downloadable": "Automation and ERP",
+    "collections": "Infrastructure and Security",
+    "humanCreated": "Development and Integration",
+    "aiGenerated": "Marketing and Media",
+    "consulting": "Enterprise Digital Transformation Consulting",
+    "architecture": "API Development and System Integration",
+    "design": "Website Design and Development",
+    "engineering": "Software and System Development",
+    "platform": "Enterprise AI Automation Platform",
+    "automation": "Business Process Automation and n8n",
+    "cloud": "Server, Hosting, and SSL Services",
+    "security": "AI Powered Cybersecurity",
+    "mobile": "E-commerce Technologies",
+    "aiSolutions": "Personalized AI Chatbot",
+    "analytics": "Data Analytics and Big Data",
+    "support": "Continuous Support and Optimization",
+    "insights": "Blog and Insights",
+    "community": "Industry Solutions",
+    "partners": "Technology Partnership"
+  },
+  "home": {
+    "title": "Labsoy Technologies",
+    "lead": "Enterprise-grade software, AI, automation, and creative technology—built to turn strategy into scalable digital reality.",
+    "hero": {
+      "srTitle": "Labsoy Technologies and Digital Solutions",
+      "line1": "Technology & Creative",
+      "line2": "Excellence.",
+      "accent": "LABSOY",
+      "ctaServices": "Explore Services",
+      "ctaContact": "Contact Us"
+    },
+    "trustMarquee": {
+      "title": "Your partner for technology, AI, and digital transformation",
+      "brands": ["AI Systems", "Enterprise Automation", "SaaS Development", "API Integration", "Big Data"]
+    },
+    "valueTeaserTitle": "Why Labsoy",
+    "valueTeaserBody": "We combine engineering rigor with creative execution—so you ship faster, automate smarter, and grow with systems that stay maintainable.",
+    "heroGreeting": "Hi there! this is",
+    "heroPrimaryCta": "View Our Work",
+    "heroSidebarTitle": "Services",
+    "heroLetsTalk": "Let's talk",
+    "heroSidebarFootnote": "Award winning technology and creative solutions provider.",
+    "heroDotsAria": "Slide navigation",
+    "heroDotLabel": "Go to slide {{n}}",
+    "heroSlides": [
+      {
+        "category": "SOFTWARE ENGINEERING EXCELLENCE",
+        "title": "Technology & Creative Excellence",
+        "subtitle": "Into Digital Reality",
+        "description": "Enterprise-grade software solutions including ERP, HRMS, Payment Systems & E-Commerce Platforms"
+      },
+      {
+        "category": "ARTIFICIAL INTELLIGENCE & ML",
+        "title": "Powered By Intelligence",
+        "subtitle": "Driven By Innovation",
+        "description": "Advanced AI solutions with Machine Learning, Predictive Analytics & Smart Systems"
+      },
+      {
+        "category": "CREATIVE STUDIO SERVICES",
+        "title": "Where Technology",
+        "subtitle": "Meets Creativity",
+        "description": "Professional Photography, Video Production, 3D Animation & AR/VR Development"
+      },
+      {
+        "category": "ENTERPRISE AUTOMATION",
+        "title": "Automation That",
+        "subtitle": "Transforms Business",
+        "description": "IoT Integration, Smart Systems & RPA Solutions for Operational Excellence"
+      }
+    ],
+    "heroServiceNames": [
+      "Software Engineering",
+      "AI & Technologies",
+      "Creative Studio",
+      "Digital Marketing"
+    ],
+    "statsTitle": "Our Impact",
+    "statsSubtitle": "Delivering Excellence Across Industries",
+    "statsItems": [
+      { "value": "500", "suffix": "+", "label": "Projects Delivered" },
+      { "value": "200", "suffix": "+", "label": "Happy Clients" },
+      { "value": "50", "suffix": "+", "label": "Team Members" },
+      { "value": "98", "suffix": "%", "label": "Client Satisfaction" }
+    ],
+    "companySection": {
+      "eyebrow": "The company",
+      "titleBefore": "Engineering and creativity for",
+      "titleAccent": "TRANSFORMATION",
+      "lead": "Labsoy unifies software, AI, and automation with clear delivery so teams modernize without losing control of quality or security.",
+      "cardKicker": "Proof in the numbers",
+      "tags": ["AI", "Automation", "Enterprise SaaS", "Cloud", "APIs", "Security"],
+      "highlights": [
+        "End-to-end ownership from strategy to production operations",
+        "Security- and performance-minded builds for regulated environments",
+        "Long-term maintainability: documentation, handover, and iteration"
+      ],
+      "aboutCta": "About Labsoy"
+    },
+    "servicesSection": {
+      "eyebrow": "Our Services",
+      "titleBefore": "Explore Our Range of",
+      "titleAccent": "SERVICES",
+      "learnMore": "Learn More",
+      "items": [
+        {
+          "icon": "code",
+          "title": "Software Engineering",
+          "description": "Enterprise-grade custom software solutions including payment systems, ERP, HR systems.",
+          "features": ["Payment Systems", "ERP & HRMS", "E-Commerce Platforms"]
+        },
+        {
+          "icon": "brain",
+          "title": "AI & Technologies",
+          "description": "Cutting-edge AI, machine learning, IoT systems, and predictive analytics solutions.",
+          "features": ["Machine Learning", "IoT Integration", "Smart Systems"]
+        },
+        {
+          "icon": "camera",
+          "title": "Creative Studio",
+          "description": "Professional photography, video production, 3D animation, and AR/VR content.",
+          "features": ["Video Production", "3D Animation", "Photography"]
+        }
+      ]
+    },
+    "portfolioSection": {
+      "sectionAria": "Portfolio",
+      "filterAria": "Filter projects by category",
+      "eyebrow": "Our Work",
+      "titleBefore": "Showcase of Our Exceptional",
+      "titleAccent": "PORTFOLIO",
+      "lead": "Selected Labsoy engagements where strategy, software, and AI come together to deliver measurable business outcomes.",
+      "featuredKicker": "Featured Case",
+      "viewDetails": "View details",
+      "modalCloseAria": "Close project details",
+      "modalCta": "View Case Study",
+      "highlights": [
+        { "value": "120+", "label": "Projects Delivered" },
+        { "value": "38%", "label": "Avg. Operational Efficiency Gain" },
+        { "value": "24/7", "label": "Critical System Uptime Coverage" },
+        { "value": "18", "label": "Industry Domains Supported" }
+      ],
+      "categories": [
+        { "id": "all", "label": "All" },
+        { "id": "software", "label": "Software" },
+        { "id": "ai", "label": "AI" },
+        { "id": "creative", "label": "Creative" }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "category": "software",
+          "title": "Enterprise ERP System",
+          "description": "Complete enterprise resource planning solution for manufacturing industry",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+          "tags": ["ERP", "Cloud", "Enterprise"],
+          "details": "Developed a comprehensive ERP system handling inventory, HR, finance, and production management for a large manufacturing company with 500+ users."
+        },
+        {
+          "id": 2,
+          "category": "ai",
+          "title": "AI-Powered CCTV Analytics",
+          "description": "Real-time surveillance with computer vision and threat detection",
+          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80",
+          "tags": ["AI", "Computer Vision", "Security"],
+          "details": "Implemented advanced computer vision algorithms for real-time threat detection, facial recognition, and behavioral analysis across 100+ cameras."
+        },
+        {
+          "id": 3,
+          "category": "creative",
+          "title": "Corporate Brand Video",
+          "description": "High-end corporate video production for Fortune 500 company",
+          "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&q=80",
+          "tags": ["Video", "Production", "4K"],
+          "details": "Produced a cinematic corporate brand video featuring 4K drone footage, professional interviews, and post-production effects."
+        },
+        {
+          "id": 4,
+          "category": "software",
+          "title": "E-Commerce Platform",
+          "description": "Multi-vendor marketplace with advanced payment integration",
+          "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+          "tags": ["E-Commerce", "Payment", "Mobile"],
+          "details": "Built a scalable multi-vendor marketplace supporting 1000+ sellers with integrated payment gateway, inventory management, and mobile apps."
+        },
+        {
+          "id": 5,
+          "category": "ai",
+          "title": "Predictive Maintenance AI",
+          "description": "Machine learning for industrial equipment failure prediction",
+          "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+          "tags": ["ML", "IoT", "Analytics"],
+          "details": "Developed ML models analyzing sensor data to predict equipment failures 48 hours in advance, reducing downtime by 60%."
+        },
+        {
+          "id": 6,
+          "category": "creative",
+          "title": "3D Product Visualization",
+          "description": "Interactive 3D models and AR experiences for retail",
+          "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80",
+          "tags": ["3D", "AR", "WebGL"],
+          "details": "Created photorealistic 3D product models with AR integration allowing customers to visualize products in their space before purchase."
+        },
+        {
+          "id": 7,
+          "category": "software",
+          "title": "Healthcare Patient Portal",
+          "description": "Secure appointment, records, and telehealth in one platform",
+          "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Healthcare", "HIPAA", "Web"],
+          "details": "Delivered a role-based patient and clinic portal with encrypted messaging, scheduling, and telehealth hooks integrated with existing hospital systems."
+        },
+        {
+          "id": 8,
+          "category": "ai",
+          "title": "Enterprise Support Copilot",
+          "description": "RAG-based assistant for IT and customer support tickets",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+          "tags": ["RAG", "LLM", "Automation"],
+          "details": "Built a copilot that retrieves policy and runbooks, drafts responses, and routes complex tickets—cutting first-response time while keeping human review in the loop."
+        },
+        {
+          "id": 9,
+          "category": "creative",
+          "title": "Product Launch Event Suite",
+          "description": "Livestream, motion graphics, and on-site production",
+          "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Live", "Motion", "Broadcast"],
+          "details": "End-to-end production for a global product launch: multi-camera livestream, real-time lower thirds, and post-event highlight packages for social channels."
+        },
+        {
+          "id": 10,
+          "category": "software",
+          "title": "Warehouse & WMS Control",
+          "description": "Barcode-driven inventory, picking, and carrier integration",
+          "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+          "tags": ["WMS", "Logistics", "Integration"],
+          "details": "Implemented a warehouse management layer with hand-held workflows, real-time stock levels, and direct carrier label APIs across three regional depots."
+        },
+        {
+          "id": 11,
+          "category": "ai",
+          "title": "Document Intelligence Pipeline",
+          "description": "OCR, classification, and data extraction for finance ops",
+          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+          "tags": ["OCR", "NLP", "FinOps"],
+          "details": "Automated invoice and contract processing with custom layout models, validation rules, and export into the client’s GL and approval workflows."
+        },
+        {
+          "id": 12,
+          "category": "creative",
+          "title": "Motion Design System",
+          "description": "Reusable brand motion for product UI and marketing",
+          "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+          "tags": ["Motion", "Brand", "UI"],
+          "details": "Defined motion principles, Lottie and video specifications, and a component library for consistent animation across the web app and campaign creatives."
+        },
+        {
+          "id": 13,
+          "category": "software",
+          "title": "API Platform & Dev Portal",
+          "description": "Central gateway, rate limits, and partner onboarding",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+          "tags": ["API", "Gateway", "SaaS"],
+          "details": "Shipped a unified API layer with key management, usage analytics, sandbox environments, and auto-generated OpenAPI documentation for external partners."
+        },
+        {
+          "id": 14,
+          "category": "ai",
+          "title": "Retail Recommendation Engine",
+          "description": "Real-time product ranking from behavior and seasonality",
+          "image": "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&q=80&auto=format&fit=crop",
+          "tags": ["ML", "Retail", "Personalization"],
+          "details": "Trained and deployed online ranking models with A/B tests and guardrails, lifting conversion on category and checkout surfaces without hurting exploration."
+        },
+        {
+          "id": 15,
+          "category": "software",
+          "title": "Field Service Mobile App",
+          "description": "Offline-first jobs, signatures, and parts for technicians",
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Mobile", "Offline", "SaaS"],
+          "details": "Technicians get dispatch, route optimization, and sync when back online. Integrated with work orders and customer notifications."
+        },
+        {
+          "id": 16,
+          "category": "ai",
+          "title": "Voice of Customer Mining",
+          "description": "Topic and sentiment on surveys, chat, and support tickets",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80&auto=format&fit=crop",
+          "tags": ["NLP", "Analytics", "CX"],
+          "details": "Pipelines to cluster feedback, track trends, and alert product owners on emerging issues with weekly executive summaries."
+        },
+        {
+          "id": 17,
+          "category": "creative",
+          "title": "Rebrand & Design System 2.0",
+          "description": "Visual identity, tokens, and component library in Figma",
+          "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Branding", "Figma", "UI"],
+          "details": "Refreshed logo, color, and type scale; shipped a token-based design system and Storybook for marketing and product teams."
+        },
+        {
+          "id": 18,
+          "category": "software",
+          "title": "Subscription Billing Engine",
+          "description": "Plans, dunning, and revenue recognition in one service",
+          "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80&auto=format&fit=crop",
+          "tags": ["SaaS", "Payments", "Ledgers"],
+          "details": "Migrated a B2B SaaS to usage-based plans with proration, credit notes, and exports for finance—without service downtime."
+        },
+        {
+          "id": 19,
+          "category": "ai",
+          "title": "Fraud & Anomaly Scoring",
+          "description": "Real-time risk scores for sign-ups and card transactions",
+          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Risk", "Fraud", "ML"],
+          "details": "Ensemble models with explainable features, shadow mode rollout, and guardrails to balance catch rate and false positives."
+        },
+        {
+          "id": 20,
+          "category": "creative",
+          "title": "Immersive Web Experience",
+          "description": "WebGL product story for global hardware launch",
+          "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80&auto=format&fit=crop",
+          "tags": ["WebGL", "3D", "Web"],
+          "details": "Scroll-driven 3D scene, performance on mid-tier phones, and CMS-driven copy blocks for regional campaigns."
+        },
+        {
+          "id": 21,
+          "category": "software",
+          "title": "Data Lakehouse Ingestion",
+          "description": "CDC, validation, and Iceberg tables for analytics teams",
+          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Data", "ETL", "Cloud"],
+          "details": "Built streaming ingest with schema registry, PII redaction, and time-travel tables for the BI and ML teams to consume."
+        },
+        {
+          "id": 22,
+          "category": "ai",
+          "title": "Computer Vision QC Line",
+          "description": "Defect inspection on the assembly line at production speed",
+          "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Vision", "Manufacturing", "Edge"],
+          "details": "Custom models on edge devices with line-side HMI, retraining loop from operator feedback, and SPC-style dashboards for plant managers."
+        }
+      ]
+    },
+    "contactSection": {
+      "sectionAria": "Contact Labsoy",
+      "eyebrow": "Get In Touch",
+      "title": "Start Your Project Today",
+      "description": "Have a project in mind? Let's discuss how we can help you achieve your goals.",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "locationLabel": "Location",
+      "locationValue": "Istanbul, Turkey — Remote worldwide",
+      "formName": "Full Name",
+      "formEmail": "Email Address",
+      "formPhone": "Phone Number",
+      "formMessage": "Project Details",
+      "submit": "Send Message",
+      "subjectLine": "Project inquiry from labsoy.com",
+      "success": "Thanks — your email app should open with your message. If it does not, email us directly.",
+      "errorGeneric": "Please fill in all required fields correctly.",
+      "errorEmail": "Please enter a valid email address.",
+      "errorPhone": "Please enter a valid phone number."
+    },
+    "ctaBand": {
+      "sectionAria": "Call to action",
+      "title": "Ready to Transform Your Business?",
+      "line": "Let's create innovative solutions together.",
+      "primary": "Start Your Project",
+      "secondary": "Explore Services"
+    }
+  },
+  "company": {
+    "brand": "Labsoy",
+    "fullName": "Labsoy Technologies & Digital Solutions",
+    "email": "info@labsoy.com",
+    "phone": "+90 552 404 4224",
+    "slogan": "Smart Solutions, Limitless Power"
+  },
+  "aboutPage": {
+    "title": "About Labsoy",
+    "hero": {
+      "eyebrow": "About Us",
+      "title": "We Engineer Digital Momentum for Ambitious Businesses",
+      "lead": "Labsoy combines software engineering, AI, and automation into one execution model, so organizations can modernize operations and scale with confidence.",
+      "primaryCta": "Work with us",
+      "secondaryCta": "Explore services"
+    },
+    "story": {
+      "kicker": "Our Story",
+      "title": "Built to Close the Gap Between Strategy and Delivery",
+      "paragraphs": [
+        "Labsoy started with a simple observation: many teams had strong digital ambitions but fragmented execution. Strategy, software, and operations often moved in different directions.",
+        "We built Labsoy as a unified partner that can design, build, and operationalize transformation programs end to end. From architecture to automation, every decision is tied to measurable business impact.",
+        "Today, we work with growth-stage and enterprise teams that need systems to run faster, cleaner, and at scale."
+      ],
+      "milestones": [
+        { "year": "2021", "text": "Established as a digital delivery partner focused on software and process modernization." },
+        { "year": "2023", "text": "Expanded into AI-enabled automation and advanced integration programs." },
+        { "year": "2025", "text": "Scaled to full-spectrum transformation support across product, operations, and growth." }
+      ]
+    },
+    "mission": {
+      "kicker": "Mission",
+      "title": "Make complex transformation executable.",
+      "body": "We turn strategic intent into reliable systems, combining product-grade engineering with operational discipline."
+    },
+    "vision": {
+      "kicker": "Vision",
+      "title": "Set the benchmark for practical innovation.",
+      "body": "We envision organizations where AI, automation, and software operate as one coherent engine for growth."
+    },
+    "values": {
+      "kicker": "Our Values",
+      "title": "The Standards Behind Our Work",
+      "items": [
+        { "title": "Clarity Over Noise", "body": "We simplify complexity into concrete decisions, actionable plans, and accountable delivery." },
+        { "title": "Outcomes First", "body": "Every roadmap, sprint, and release is measured against business impact, not output volume." },
+        { "title": "Craft with Discipline", "body": "We build resilient systems with long-term maintainability, not short-lived shortcuts." },
+        { "title": "Partnership Mindset", "body": "We work shoulder-to-shoulder with client teams, sharing context, risks, and wins transparently." }
+      ]
+    },
+    "differentiators": {
+      "kicker": "What Makes Us Different",
+      "title": "Why Teams Choose Labsoy",
+      "items": [
+        "One integrated team across product, engineering, and automation delivery.",
+        "Architecture decisions grounded in operational realities and growth constraints.",
+        "Execution cadence designed for speed without sacrificing reliability.",
+        "Hands-on enablement that leaves your internal team stronger after launch."
+      ]
+    },
+    "team": {
+      "kicker": "People",
+      "title": "Experts Who Build and Own the Outcome",
+      "body": "Our team blends software architects, AI specialists, automation engineers, and growth-focused strategists. We value precision, momentum, and shared accountability.",
+      "points": [
+        "Cross-functional squads aligned to product, data, and operations.",
+        "Senior technical ownership from discovery through post-launch optimization.",
+        "A culture that values direct communication and measurable progress."
+      ]
+    },
+    "trust": {
+      "kicker": "Trust Signals",
+      "title": "Proof Through Delivery",
+      "body": "Our credibility comes from repeatable execution, durable systems, and transparent collaboration.",
+      "stats": [
+        { "value": "100+", "label": "Transformation initiatives delivered" },
+        { "value": "30+", "label": "Enterprise and growth-stage teams supported" },
+        { "value": "24/7", "label": "Operational visibility across critical workflows" }
+      ]
+    },
+    "finalCta": {
+      "primary": "Start your project",
+      "secondary": "See our services"
+    }
+  },
+  "servicesPage": {
+    "title": "Our Services",
+    "intro": "Labsoy provides end-to-end enterprise solutions across technology, software, artificial intelligence, and automation.",
+    "heroTitleBefore": "Enterprise",
+    "heroTitleAccent": "Services",
+    "catalogSectionTitle": "What we deliver",
+    "catalogSectionLead": "End-to-end capability across five practice areas.",
+    "pillarsTitle": "Why Labsoy",
+    "pillarsLead": "A transparent, measurable delivery model built for enterprise teams.",
+    "pillars": [
+      {
+        "title": "Fast to production",
+        "body": "Short cycles from prototype to go-live with clear milestones."
+      },
+      {
+        "title": "Reliable architecture",
+        "body": "Security, observability, and compliance-minded system design."
+      },
+      {
+        "title": "Scalable delivery",
+        "body": "Sustainable engineering that grows with your team and workload."
+      }
+    ],
+    "ctaTitleBefore": "Ready to",
+    "ctaTitleAccent": "start",
+    "ctaLead": "Let’s align on the right service mix—request a demo or a quote.",
+    "groupLead": {
+      "software": "Enterprise software and platform delivery",
+      "ai": "AI for decisions, customer experience, and productivity",
+      "automation": "Process automation and operational standardization",
+      "infrastructure": "Infrastructure, security, and scale",
+      "growth": "Digital growth, visibility, and performance"
+    },
+    "groups": {
+      "software": "Technology and Software Solutions",
+      "ai": "AI and Smart Systems",
+      "automation": "Automation and Business Operations",
+      "infrastructure": "Infrastructure and Security",
+      "growth": "Digital Growth and Brand"
+    },
+    "catalog": {
+      "softwareSolutions": "Technology and Software Solutions",
+      "aiSmartSystems": "AI and Smart Systems",
+      "aiAgentDevelopment": "AI Agent Development and Training Services",
+      "roboticEmbedded": "Robotic Coding and Embedded Systems",
+      "automationN8n": "Business Process Automation and n8n Integrations",
+      "erp": "ERP and Enterprise Resource Planning Systems",
+      "hostingSsl": "Server, Hosting, and SSL Infrastructure Services",
+      "gameSystems": "Game Software and System Software Development",
+      "webDesign": "Website Design and Development",
+      "animation": "Animation and Cartoon Production",
+      "socialMedia": "Social Media and Content Management",
+      "digitalAds": "Digital Advertising and Performance Marketing",
+      "brandManagement": "Brand Management and Positioning",
+      "seo": "SEO Services",
+      "aiEmployee": "AI Powered Digital Employee Solutions",
+      "noCodeAgent": "No-Code / Low-Code AI Agent Development Platform",
+      "enterpriseAiPlatform": "Enterprise AI Automation Platform",
+      "aiDecisionSupport": "AI Supported Business Analysis and Decision Support Systems",
+      "personalizedChatbot": "Personalized AI Chatbot and Customer Experience Systems",
+      "salesMarketingAutomation": "AI Supported Sales and Marketing Automation Systems",
+      "bigData": "Data Analytics and Big Data Solutions",
+      "cyberSecurity": "AI Supported Cybersecurity and Threat Analysis Systems",
+      "iot": "IoT and Smart Systems Integrations",
+      "digitalTransformation": "Enterprise Digital Transformation Consulting",
+      "saas": "SaaS Product Development",
+      "apiIntegration": "API Development and System Integration Services",
+      "mediaAutomation": "AI Supported Content Production and Media Automation Systems",
+      "simulationEducation": "Simulation and Training Technologies",
+      "ecommerceAi": "E-commerce Technologies and AI Supported Transformation Systems"
+    }
+  },
+  "process": {
+    "title": "How We Work",
+    "steps": [
+      { "title": "Analysis and Discovery", "body": "We analyze your business model, processes, and needs in detail." },
+      { "title": "Strategy and Planning", "body": "We design the best-fit software, AI, and automation strategy for your organization." },
+      { "title": "Development and Integration", "body": "We build systems and integrate them into your current infrastructure." },
+      { "title": "Testing and Optimization", "body": "We test performance and optimize for maximum operational efficiency." },
+      { "title": "Launch and Continuous Support", "body": "We launch your project and provide continuous support and improvements." }
+    ]
+  },
+  "cta": {
+    "title": "Ready to build what is next?",
+    "subtitle": "From discovery to production, we help teams ship reliable software, AI, and automation—with clarity and momentum.",
+    "actions": {
+      "consultation": "Get Free Consultation",
+      "startProject": "Start Your Project",
+      "requestDemo": "Request a Demo",
+      "getQuote": "Get a Quote",
+      "contactNow": "Contact Us",
+      "quickStart": "Start Now",
+      "setupSystem": "Set Up Your System",
+      "automateBusiness": "Automate Your Business"
+    }
+  },
+  "panel": {
+    "title": "Manage All Processes with the Labsoy Panel",
+    "items": [
+      "Manage all your projects from a single dashboard.",
+      "Control your AI agents in one place.",
+      "Monitor your automation systems continuously.",
+      "Access reports and analytics instantly."
+    ],
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
+  },
+  "contactPage": {
+    "title": "Contact",
+    "detailsTitle": "Contact Details",
+    "intro": "Connect with Labsoy to design a high-impact roadmap for your software, AI, and automation initiatives.",
+    "phoneLabel": "Phone",
+    "phoneValue": "+90 552 404 4224",
+    "emailLabel": "Email",
+    "emailValue": "info@labsoy.com"
+  },
+  "leadModal": {
+    "closeAria": "Close offer",
+    "ribbon": "Special offer — limited time",
+    "formTitle": "Book free consultation",
+    "headline": "Ready to get started?",
+    "sub": "Get a free consultation and discover how we can help your business grow with software, AI, and automation.",
+    "leftKicker": "Before you go",
+    "leftTitle": "Ready to build smarter with Labsoy?",
+    "leftBody": "Book a no-pressure call. We will align on goals, scope, and next steps — with clear, practical guidance.",
+    "leftBullet1": "Free consultation on fit and roadmap",
+    "leftBullet2": "Custom follow-up and transparent next steps",
+    "leftEmailLabel": "Email",
+    "leftPhoneLabel": "Phone",
+    "primaryCta": "Send consultation request",
+    "secondaryCta": "Explore services",
+    "trust1": "Free consultation",
+    "trust2": "No obligation",
+    "fieldName": "Name",
+    "fieldCompany": "Company",
+    "fieldEmail": "Work email",
+    "fieldService": "Service interest",
+    "fieldServicePlaceholder": "Select a service",
+    "serviceOptions": [
+      { "value": "ai", "label": "AI & machine learning" },
+      { "value": "automation", "label": "Automation & integration" },
+      { "value": "software", "label": "Custom software & platforms" },
+      { "value": "cloud", "label": "Cloud & infrastructure" },
+      { "value": "security", "label": "Security & compliance" },
+      { "value": "creative", "label": "Creative & video production" },
+      { "value": "data", "label": "Data & analytics" },
+      { "value": "other", "label": "Other / not sure" }
+    ],
+    "subjectLine": "Consultation request from labsoy.com",
+    "errorGeneric": "Please correct the fields below.",
+    "errorEmail": "Please enter a valid email address."
+  },
+  "chat": {
+    "openAria": "Open chat",
+    "title": "Labsoy Assistant",
+    "closeAria": "Close chat",
+    "placeholder": "Ask anything about Labsoy...",
+    "sendAria": "Send message",
+    "launcherLabel": "AI"
+  },
+  "footer": {
+    "srTitle": "Footer",
+    "legalNavAria": "Legal links",
+    "newsletterTitle": "Stay connected with Labsoy",
+    "newsletterBody": "Product updates, technical notes, and industry insights.",
+    "colPlatform": "Platform",
+    "colSolutions": "Solutions",
+    "colResources": "Resources",
+    "colCompany": "Company",
+    "langEnglish": "English",
+    "langTurkish": "Turkish",
+    "rights": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "socialAria": {
+      "instagram": "Instagram",
+      "pinterest": "Pinterest",
+      "x": "X",
+      "youtube": "YouTube",
+      "tiktok": "TikTok",
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn",
+      "whatsapp": "WhatsApp"
+    },
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "services": {
+      "ai": "AI Solutions",
+      "cloud": "Cloud Infrastructure",
+      "security": "Cybersecurity",
+      "platform": "AI Automation Platform",
+      "mobile": "E-commerce Technologies",
+      "analytics": "Data Analytics"
+    }
+  },
+  "status": {
+    "online": "online",
+    "offline": "offline",
+    "unknown": "--"
+  },
+  "seo": {
+    "home": {
+      "title": "Labsoy Technologies | AI, Automation, and Enterprise Software",
+      "description": "Labsoy builds scalable AI, automation, and software systems for modern enterprises. Accelerate performance, reduce costs, and scale confidently.",
+      "keywords": "Labsoy, AI solutions, enterprise automation, software development, digital transformation, SaaS, system integration"
+    },
+    "about": {
+      "title": "About Labsoy | Engineering Digital Momentum",
+      "description": "Discover how Labsoy unifies software engineering, AI, and automation to help organizations execute transformation with speed and clarity.",
+      "keywords": "about Labsoy, AI and automation partner, enterprise software engineering, digital transformation delivery, operational modernization"
+    },
+    "services": {
+      "title": "Labsoy Services | AI, Automation, Integration, and Infrastructure",
+      "description": "Explore Labsoy's service portfolio across AI systems, automation, SaaS, integration, cloud infrastructure, and cybersecurity.",
+      "keywords": "AI services, automation services, SaaS development, API integration, cloud infrastructure, cybersecurity"
+    },
+    "contact": {
+      "title": "Contact Labsoy | Start Your AI and Automation Project",
+      "description": "Get in touch with Labsoy to start your transformation project. Call +90 552 404 4224 or email info@labsoy.com.",
+      "keywords": "contact Labsoy, AI project consultation, automation project, software partner"
+    },
+    "portfolio": {
+      "title": "Labsoy Portfolio | Software, AI, and Creative Delivery",
+      "description": "Explore selected Labsoy projects across enterprise software, AI systems, automation, and creative production.",
+      "keywords": "Labsoy portfolio, enterprise software projects, AI case studies, automation delivery, creative studio work"
+    }
+  }
+}

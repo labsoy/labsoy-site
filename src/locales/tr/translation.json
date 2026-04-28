@@ -1,0 +1,715 @@
+{
+  "layout": {
+    "skipToMain": "Ana içeriğe geç"
+  },
+  "header": {
+    "homeAria": "Labsoy Ana Sayfa",
+    "navAria": "Ana Gezinme",
+    "home": "Ana Sayfa",
+    "brandTagline": "Teknoloji ve Dijital Çözümler",
+    "services": "Hizmetler",
+    "portfolio": "Portfolyo",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "languageSelectAria": "Dil seç",
+    "languageToggleToTrAria": "Türkçe'ye geç",
+    "languageToggleToEnAria": "İngilizce'ye geç",
+    "openMenuAria": "Menüyü aç",
+    "closeMenuAria": "Menüyü kapat"
+  },
+  "headerMenu": {
+    "popular": "Yazılım ve Teknoloji",
+    "staffPicks": "AI ve Akıllı Sistemler",
+    "downloadable": "Otomasyon ve ERP",
+    "collections": "Altyapı ve Güvenlik",
+    "humanCreated": "Geliştirme ve Entegrasyon",
+    "aiGenerated": "Pazarlama ve Medya",
+    "consulting": "Kurumsal Dijital Dönüşüm Danışmanlığı",
+    "architecture": "API Geliştirme ve Sistem Entegrasyonu",
+    "design": "Web Sitesi Tasarımı ve Geliştirme",
+    "engineering": "Yazılım ve Sistem Geliştirme",
+    "platform": "Kurumsal AI Otomasyon Platformu",
+    "automation": "İş Süreçleri Otomasyonu ve n8n",
+    "cloud": "Sunucu, Hosting ve SSL Hizmetleri",
+    "security": "AI Destekli Siber Güvenlik",
+    "mobile": "E-Ticaret Teknolojileri",
+    "aiSolutions": "Kişiselleştirilmiş AI Chatbot",
+    "analytics": "Veri Analitiği ve Büyük Veri",
+    "support": "Sürekli Destek ve Optimizasyon",
+    "insights": "Blog ve İçgörüler",
+    "community": "Sektör Çözümleri",
+    "partners": "Teknoloji Partnerliği"
+  },
+  "home": {
+    "title": "Labsoy Technologies",
+    "lead": "Kurumsal yazılım, yapay zekâ, otomasyon ve yaratıcı teknoloji; stratejiyi ölçeklenebilir dijital sonuçlara dönüştürmek için tasarlandı.",
+    "hero": {
+      "srTitle": "Labsoy Technologies ve Dijital Çözümler",
+      "line1": "Teknoloji ve Yaratıcı",
+      "line2": "Mükemmellik.",
+      "accent": "LABSOY",
+      "ctaServices": "Hizmetleri Keşfet",
+      "ctaContact": "Bizimle İletişime Geç"
+    },
+    "trustMarquee": {
+      "title": "Teknoloji, AI ve dijital dönüşümde güvenilir partneriniz",
+      "brands": ["AI Sistemleri", "Kurumsal Otomasyon", "SaaS Geliştirme", "API Entegrasyonu", "Büyük Veri"]
+    },
+    "valueTeaserTitle": "Neden Labsoy",
+    "valueTeaserBody": "Mühendislik disiplinini yaratıcı uygulamayla birleştiriyoruz; daha hızlı teslimat, daha akıllı otomasyon ve sürdürülebilir sistemler.",
+    "heroGreeting": "Merhaba! Burada",
+    "heroPrimaryCta": "Çalışmalarımızı Gör",
+    "heroSidebarTitle": "Hizmetler",
+    "heroLetsTalk": "Konuşalım",
+    "heroSidebarFootnote": "Ödüllü teknoloji ve yaratıcı çözüm ortağınız.",
+    "heroDotsAria": "Slayt gezinmesi",
+    "heroDotLabel": "{{n}}. slayta git",
+    "heroSlides": [
+      {
+        "category": "YAZILIM MÜHENDİSLİĞİ",
+        "title": "Teknoloji ve Yaratıcı Mükemmellik",
+        "subtitle": "Dijital Gerçekliğe",
+        "description": "ERP, İK, ödeme ve e-ticaret dahil kurumsal yazılım çözümleri."
+      },
+      {
+        "category": "YAPAY ZEKA",
+        "title": "Zekâ ile Güçlendirildi",
+        "subtitle": "İnovasyonla İlerliyor",
+        "description": "Makine öğrenmesi, tahmine dayalı analitik ve akıllı sistemler."
+      },
+      {
+        "category": "YARATICI STUDIO",
+        "title": "Teknolojinin",
+        "subtitle": "Yaratıcılıkla Buluştuğu Yer",
+        "description": "Fotoğraf, video, 3D animasyon ve AR/VR."
+      },
+      {
+        "category": "KURUMSAL OTOMASYON",
+        "title": "Dönüştüren",
+        "subtitle": "Otomasyon",
+        "description": "IoT, akıllı sistemler ve RPA ile operasyonel mükemmellik."
+      }
+    ],
+    "heroServiceNames": [
+      "Yazılım Mühendisliği",
+      "AI ve Teknolojiler",
+      "Yaratıcı Studio",
+      "Dijital Pazarlama"
+    ],
+    "statsTitle": "Etkimiz",
+    "statsSubtitle": "Sektörel mükemmellik",
+    "statsItems": [
+      { "value": "500", "suffix": "+", "label": "Teslim Proje" },
+      { "value": "200", "suffix": "+", "label": "Mutlu Müşteri" },
+      { "value": "50", "suffix": "+", "label": "Ekip Üyesi" },
+      { "value": "98", "suffix": "%", "label": "Memnuniyet" }
+    ],
+    "companySection": {
+      "eyebrow": "Kurum",
+      "titleBefore": "Dönüşüm için mühendislik ve",
+      "titleAccent": "YARATICILIK",
+      "lead": "Labsoy, yazılım, yapay zekâ ve otomasyonu net teslimatla birleştirir; ekipler kalite ve güvenlikten ödün vermeden modernleşir.",
+      "cardKicker": "Rakamlarla kanıt",
+      "tags": ["AI", "Otomasyon", "Kurumsal SaaS", "Bulut", "API'ler", "Güvenlik"],
+      "highlights": [
+        "Stratejiden canlı operasyona uçtan uca sorumluluk",
+        "Düzenlenmiş ortamlar için güvenlik ve performans odaklı üretim",
+        "Uzun ömürlü sürdürülebilirlik: dokümantasyon, devir ve iterasyon"
+      ],
+      "aboutCta": "Labsoy hakkında"
+    },
+    "servicesSection": {
+      "eyebrow": "Hizmetlerimiz",
+      "titleBefore": "Yelpazemizi Keşfedin",
+      "titleAccent": "HIZMETLER",
+      "learnMore": "Daha Fazla Bilgi",
+      "items": [
+        {
+          "icon": "code",
+          "title": "Yazılım Mühendisliği",
+          "description": "Ödeme, ERP ve İK dahil kurumsal özel yazılım çözümleri.",
+          "features": ["Ödeme Sistemleri", "ERP ve İK", "E-Ticaret Platformları"]
+        },
+        {
+          "icon": "brain",
+          "title": "AI ve Teknolojiler",
+          "description": "AI, makine öğrenmesi, IoT ve tahmine dayalı analitik çözümleri.",
+          "features": ["Makine Öğrenmesi", "IoT Entegrasyonu", "Akıllı Sistemler"]
+        },
+        {
+          "icon": "camera",
+          "title": "Yaratıcı Studio",
+          "description": "Profesyonel fotoğraf, video, 3D animasyon ve AR/VR içerik.",
+          "features": ["Video Üretimi", "3D Animasyon", "Fotoğraf"]
+        }
+      ]
+    },
+    "portfolioSection": {
+      "sectionAria": "Portfolyo",
+      "filterAria": "Projeleri kategoriye göre filtrele",
+      "eyebrow": "Çalışmalarımız",
+      "titleBefore": "Özgün Çözümlerimizin",
+      "titleAccent": "PORTFOLYO",
+      "lead": "Strateji, yazılım ve AI'ın bir araya gelerek ölçülebilir iş sonuçları ürettiği seçili Labsoy projeleri.",
+      "featuredKicker": "Öne Çıkan Proje",
+      "viewDetails": "Detayları gör",
+      "modalCloseAria": "Proje detayını kapat",
+      "modalCta": "Örnek incelemeyi gör",
+      "highlights": [
+        { "value": "120+", "label": "Teslim Edilen Proje" },
+        { "value": "%38", "label": "Ortalama Operasyonel Verim Artışı" },
+        { "value": "7/24", "label": "Kritik Sistem Çalışma Sürekliliği" },
+        { "value": "18", "label": "Desteklenen Sektör Alanı" }
+      ],
+      "categories": [
+        { "id": "all", "label": "Tümü" },
+        { "id": "software", "label": "Yazılım" },
+        { "id": "ai", "label": "AI" },
+        { "id": "creative", "label": "Yaratıcı" }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "category": "software",
+          "title": "Kurumsal ERP Sistemi",
+          "description": "İmalat sektörü için uçtan uca kaynak planlama çözümü",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+          "tags": ["ERP", "Bulut", "Kurumsal"],
+          "details": "500+ kullanıcılı büyük bir imalat şirketi için stok, İK, finans ve üretim yönetimini kapsayan kapsamlı bir ERP sistemi geliştirildi."
+        },
+        {
+          "id": 2,
+          "category": "ai",
+          "title": "AI Destekli CCTV Analitiği",
+          "description": "Bilgisayarlı görüş ve tehdit tespitiyle gerçek zamanlı izleme",
+          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80",
+          "tags": ["AI", "Görüntü", "Güvenlik"],
+          "details": "100+ kamera için gerçek zamanlı tehdit tespiti, yüz tanıma ve davranış analizi sağlayan ileri görüntü algoritmaları uygulandı."
+        },
+        {
+          "id": 3,
+          "category": "creative",
+          "title": "Kurumsal Marka Videosu",
+          "description": "Fortune 500 şirketi için üst düzey kurumsal video üretimi",
+          "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&q=80",
+          "tags": ["Video", "Üretim", "4K"],
+          "details": "4K drone görüntüleri, profesyonel röportajlar ve post-prodüksiyon efektleri içeren sinematik bir kurumsal marka videosu üretildi."
+        },
+        {
+          "id": 4,
+          "category": "software",
+          "title": "E-Ticaret Platformu",
+          "description": "Gelişmiş ödeme entegrasyonlu çok satıcılı pazar yeri",
+          "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+          "tags": ["E-Ticaret", "Ödeme", "Mobil"],
+          "details": "1000+ satıcıyı destekleyen, entegre ödeme, stok ve mobil uygulamalarla ölçeklenebilir çok satıcılı pazar yeri inşa edildi."
+        },
+        {
+          "id": 5,
+          "category": "ai",
+          "title": "Tahmine Dayalı Bakım AI",
+          "description": "Endüstriyel ekipman arıza tahmini için makine öğrenmesi",
+          "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+          "tags": ["ML", "IoT", "Analitik"],
+          "details": "Sensör verilerini analiz ederek arızaları 48 saat önceden tahmin eden ML modelleri geliştirildi; kesinti süresi %60 azaltıldı."
+        },
+        {
+          "id": 6,
+          "category": "creative",
+          "title": "3D Ürün Görselleştirme",
+          "description": "Perakende için etkileşimli 3D modeller ve AR deneyimleri",
+          "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80",
+          "tags": ["3D", "AR", "WebGL"],
+          "details": "Müşterilerin satın almadan önce ürünü kendi ortamlarında görmesini sağlayan fotogerçekçi 3D ürün modelleri ve AR entegrasyonu oluşturuldu."
+        },
+        {
+          "id": 7,
+          "category": "software",
+          "title": "Sağlık Hasta Portali",
+          "description": "Randevu, kayıt ve tele-sağlık tek platformda, güvenli erişim",
+          "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Sağlık", "Uyumluluk", "Web"],
+          "details": "Hasta ve klinik rolleri için şifreli mesajlaşma, planlama ve mevcut hastane sistemleriyle entegre tele-sağlık kancaları içeren portal teslim edildi."
+        },
+        {
+          "id": 8,
+          "category": "ai",
+          "title": "Kurumsal Destek Asistanı",
+          "description": "IT ve müşteri desteği formları için RAG tabanlı yardımcı",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+          "tags": ["RAG", "LLM", "Otomasyon"],
+          "details": "Politika ve runbook’ları anında getiren, taslak yanıt üreten ve karmaşık kayıtları yönlendiren bir asistan: ilk yanıt sürelerini kısaltırken insan onayını korur."
+        },
+        {
+          "id": 9,
+          "category": "creative",
+          "title": "Ürün Lansmanı Etkinlik Paketi",
+          "description": "Canlı yayın, hareket grafikleri ve saha prodüksiyonu",
+          "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Canlı", "Motion", "Yayın"],
+          "details": "Küresel ürün lansmanı için uçtan uca prodüksiyon: çok kameralı canlı yayın, anlık alt bant metinleri ve sosyal kanallar için özet montajlar."
+        },
+        {
+          "id": 10,
+          "category": "software",
+          "title": "Depo ve WMS Yönetimi",
+          "description": "Barkodlu stok, toplama ve kargo entegrasyonu",
+          "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+          "tags": ["WMS", "Lojistik", "Entegrasyon"],
+          "details": "El terminali akışları, anlık stok ve üç bölgesel depo için doğrudan kargo etiketi API’leriyle depo yönetimi katmanı hayata geçirildi."
+        },
+        {
+          "id": 11,
+          "category": "ai",
+          "title": "Belge Zekâ Hattı",
+          "description": "OCR, sınıflandırma ve finans operasyonlarına veri çıkarma",
+          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+          "tags": ["OCR", "NLP", "Finans"],
+          "details": "Fatura ve sözleşme işlemlerini özel sayfa modelleri, doğrulama kuralları ve muhasebe ve onay akışlarına aktarım ile otomatikleştirir."
+        },
+        {
+          "id": 12,
+          "category": "creative",
+          "title": "Hareket Tasarım Sistemi",
+          "description": "Ürün arayüzü ve pazarlama için tekrar kullanılabilir marka hareketi",
+          "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+          "tags": ["Motion", "Marka", "Arayüz"],
+          "details": "Hareket ilkeleri, Lottie ve video spesifikasyonları; web uygulaması ve kampanya görsellerinde tutarlı animasyon için bileşen seti."
+        },
+        {
+          "id": 13,
+          "category": "software",
+          "title": "API Platformu ve Geliştirici Portalı",
+          "description": "Merkezi geçit, hız sınırları ve ortak onboarding",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+          "tags": ["API", "Gateway", "SaaS"],
+          "details": "Anahtar yönetimi, kullanım analitiği, sandbox ortamları ve dış ortaklar için otomatik OpenAPI dokümantasyonu sunan birleşik API katmanı."
+        },
+        {
+          "id": 14,
+          "category": "ai",
+          "title": "Perakende Öneri Motoru",
+          "description": "Davranış ve sezonsallığa göre anlık ürün sıralama",
+          "image": "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&q=80&auto=format&fit=crop",
+          "tags": ["ML", "Perakende", "Kişiselleştirme"],
+          "details": "A/B testleri ve güvenlik tavanları ile çevrimiçi sıralama modelleri: keşif dengesini bozmadan dönüşüm artışı hedeflendi."
+        },
+        {
+          "id": 15,
+          "category": "software",
+          "title": "Saha Servis Mobil Uygulama",
+          "description": "Teknisyenler için çevrimdışı iş, imza ve yedek parça",
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Mobil", "Çevrimdışı", "SaaS"],
+          "details": "Sevk, rota ve çevrimiçi olunca senkron; iş emirleri ve müşteri bildirimleriyle entegre."
+        },
+        {
+          "id": 16,
+          "category": "ai",
+          "title": "Müşteri Sesi Analizi",
+          "description": "Anket, sohbet ve destek kayıtlarında konu ve duygu",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80&auto=format&fit=crop",
+          "tags": ["NLP", "Analitik", "CX"],
+          "details": "Geri bildirimleri kümeler, eğilimleri izler ve ürün ekiplerini yeni sorunlarda uyarır; yönetime haftalık özetler."
+        },
+        {
+          "id": 17,
+          "category": "creative",
+          "title": "Yeniden Marka ve Tasarım Sistemi 2.0",
+          "description": "Görsel kimlik, token ve Figma’da bileşen kütüphanesi",
+          "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Marka", "Figma", "Arayüz"],
+          "details": "Logo, renk ve tipografi; token tabanlı tasarım sistemi ve Storybook ile pazarlama ve ürün ekipleri arasında hizalama."
+        },
+        {
+          "id": 18,
+          "category": "software",
+          "title": "Abonelik Faturalama Motoru",
+          "description": "Planlar, tahsilat ve gelir muhasebesi tek serviste",
+          "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80&auto=format&fit=crop",
+          "tags": ["SaaS", "Ödeme", "Defter"],
+          "details": "B2B SaaS, kullanıma dayalı plânlara geçirildi: prorasyon, kredi notları ve muhasebe dışa aktarımı kesinti olmadan."
+        },
+        {
+          "id": 19,
+          "category": "ai",
+          "title": "Dolandırıcılık ve Anomali Skoru",
+          "description": "Kayıt ve kart işlemlerinde anlık risk puanı",
+          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Risk", "Dolandırıcılık", "ML"],
+          "details": "Açıklanabilir özellikler, gölge modu ve hatalı pozitif ile yakalama oranı arasında denge korumaları."
+        },
+        {
+          "id": 20,
+          "category": "creative",
+          "title": "Etkileşimli Web Deneyimi",
+          "description": "Küresel donanım lansmanı için WebGL ürün hikâyesi",
+          "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80&auto=format&fit=crop",
+          "tags": ["WebGL", "3D", "Web"],
+          "details": "Kaydırma ile ilerleyen 3D sahne, orta segment telefonda performans; bölgesel kampanyalar için CMS ile metin alanları."
+        },
+        {
+          "id": 21,
+          "category": "software",
+          "title": "Data Lakehouse Besleme",
+          "description": "CDC, doğrulama ve analitik ekipleri için Iceberg tablolar",
+          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Veri", "ETL", "Bulut"],
+          "details": "Şema kaydı, KVK/PII maskeleme ve BI ile ML tüketimi için zaman yolculu tabloları ile akan besleme hattı."
+        },
+        {
+          "id": 22,
+          "category": "ai",
+          "title": "Bilgisayarlı Görme Kalite Hattı",
+          "description": "Üretim hızında montaj hattı kusur denetimi",
+          "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80&auto=format&fit=crop",
+          "tags": ["Görüntü", "Üretim", "Edge"],
+          "details": "Uç cihazda özel modeller, operatör geri bildirimli yeniden eğitim ve tesis yöneticileri için SPC tarzı panolar."
+        }
+      ]
+    },
+    "contactSection": {
+      "sectionAria": "Labsoy iletişim",
+      "eyebrow": "İletişime Geçin",
+      "title": "Bugün Projenizi Başlatın",
+      "description": "Aklınızda bir proje mi var? Hedeflerinize ulaşmak için size nasıl yardımcı olabileceğimizi konuşalım.",
+      "emailLabel": "E-posta",
+      "phoneLabel": "Telefon",
+      "locationLabel": "Konum",
+      "locationValue": "İstanbul, Türkiye — Dünya geneli uzaktan",
+      "formName": "Ad Soyad",
+      "formEmail": "E-posta Adresi",
+      "formPhone": "Telefon Numarası",
+      "formMessage": "Proje Detayları",
+      "submit": "Mesaj Gönder",
+      "subjectLine": "labsoy.com üzerinden proje talebi",
+      "success": "Teşekkürler — mesajınız e-posta uygulamanızda açılmalı. Açılmazsa doğrudan bize yazın.",
+      "errorGeneric": "Lütfen tüm zorunlu alanları doğru doldurun.",
+      "errorEmail": "Lütfen geçerli bir e-posta adresi girin.",
+      "errorPhone": "Lütfen geçerli bir telefon numarası girin."
+    },
+    "ctaBand": {
+      "sectionAria": "Harekete geçin",
+      "title": "İşletmenizi dönüştürmeye hazır mısınız?",
+      "line": "Birlikte yenilikçi çözümler oluşturalım.",
+      "primary": "Projenizi Başlatın",
+      "secondary": "Hizmetleri Keşfedin"
+    }
+  },
+  "company": {
+    "brand": "Labsoy",
+    "fullName": "Labsoy Technologies & Dijital Çözümler",
+    "email": "info@labsoy.com",
+    "phone": "+90 552 404 4224",
+    "slogan": "Akıllı çözümler, sınırsız güç"
+  },
+  "aboutPage": {
+    "title": "Labsoy Hakkında",
+    "hero": {
+      "eyebrow": "Hakkımızda",
+      "title": "Büyüme odaklı şirketler için dijital iş inşa ediyoruz",
+      "lead": "Labsoy; yazılım mühendisliği, yapay zekâ ve otomasyonu tek bir teslim modelinde birleştirerek kurumların operasyonlarını güvenle ölçeklemesini sağlar.",
+      "primaryCta": "Bizimle çalışın",
+      "secondaryCta": "Hizmetleri keşfedin"
+    },
+    "story": {
+      "kicker": "Hikayemiz",
+      "title": "Strateji ile teslimat arasındaki boşluğu kapatmak için kurulduk",
+      "paragraphs": [
+        "Labsoy, dijital hedefleri güçlü olan ancak dağınık teslimat modelleri nedeniyle yavaşlayan ekipler için doğdu. Strateji, yazılım ve operasyonun aynı yönde ilerlemesi gerekiyordu.",
+        "Bu nedenle Labsoy'u; keşiften mimariye, geliştirmeden otomasyona kadar dönüşümü uçtan uca yöneten bir iş ortağı olarak konumlandırdık. Her kararımızı ölçülebilir iş etkisine bağlıyoruz.",
+        "Bugün; daha hızlı, daha sade ve ölçeklenebilir sistemlere ihtiyaç duyan büyüme odaklı ve kurumsal ekiplerle çalışıyoruz."
+      ],
+      "milestones": [
+        { "year": "2021", "text": "Yazılım ve süreç modernizasyonuna odaklı dijital teslim ortağı olarak kuruldu." },
+        { "year": "2023", "text": "Yapay zekâ destekli otomasyon ve ileri entegrasyon programları devreye alındı." },
+        { "year": "2025", "text": "Ürün, operasyon ve büyüme ekseninde tam kapsamlı dönüşüm desteğine ölçeklendi." }
+      ]
+    },
+    "mission": {
+      "kicker": "Misyon",
+      "title": "Karmaşık dönüşümü uygulanabilir hale getirmek.",
+      "body": "Stratejik hedefleri güvenilir sistemlere dönüştürüyor; ürün seviyesinde mühendisliği operasyonel disiplinle birleştiriyoruz."
+    },
+    "vision": {
+      "kicker": "Vizyon",
+      "title": "Pratik inovasyonda referans olmak.",
+      "body": "Yapay zekâ, otomasyon ve yazılımın tek bir büyüme motoru gibi çalıştığı kurumların geleceğini inşa etmeyi hedefliyoruz."
+    },
+    "values": {
+      "kicker": "Değerlerimiz",
+      "title": "Çalışma standartlarımız",
+      "items": [
+        { "title": "Karmaşa yerine netlik", "body": "Karmaşık problemleri açık kararlar, uygulanabilir planlar ve sorumluluk sahibi teslimata dönüştürürüz." },
+        { "title": "Çıktı değil sonuç", "body": "Her yol haritası ve her yayın, iş etkisine göre değerlendirilir." },
+        { "title": "Disiplinli ustalık", "body": "Kısa ömürlü çözümler yerine sürdürülebilir ve dayanıklı sistemler inşa ederiz." },
+        { "title": "Gerçek ortaklık", "body": "Müşteri ekipleriyle aynı masada çalışır, riskleri ve kazançları şeffaf şekilde paylaşırız." }
+      ]
+    },
+    "differentiators": {
+      "kicker": "Bizi farklı kılan",
+      "title": "Ekiplerin Labsoy'u seçme nedenleri",
+      "items": [
+        "Ürün, mühendislik ve otomasyonu tek bir entegre ekipte birleştirmemiz.",
+        "Mimari kararların operasyonel gerçeklik ve büyüme hedefleriyle uyumlu olması.",
+        "Güvenilirlikten ödün vermeden hızlı ilerleyen teslim ritmi.",
+        "Lansman sonrasında da iç ekiplerinizi güçlendiren uygulamalı bilgi aktarımı."
+      ]
+    },
+    "team": {
+      "kicker": "Ekip",
+      "title": "Sonucu sahiplenen uzman kadro",
+      "body": "Ekibimiz; yazılım mimarları, yapay zekâ uzmanları, otomasyon mühendisleri ve büyüme odaklı stratejistlerden oluşur. Doğruluk, hız ve ortak sorumlulukla çalışırız.",
+      "points": [
+        "Ürün, veri ve operasyon etrafında hizalanmış çapraz fonksiyonlu ekipler.",
+        "Keşiften lansman sonrası optimizasyona kadar üst düzey teknik sahiplik.",
+        "Doğrudan iletişim ve ölçülebilir ilerlemeyi merkeze alan kültür."
+      ]
+    },
+    "trust": {
+      "kicker": "Güven unsurları",
+      "title": "Teslimatla kanıtlanan güven",
+      "body": "Güvenilirliğimizi; tekrar edilebilir teslimat modeli, dayanıklı sistemler ve şeffaf iş birliğiyle inşa ediyoruz.",
+      "stats": [
+        { "value": "100+", "label": "Tamamlanan dönüşüm inisiyatifi" },
+        { "value": "30+", "label": "Desteklenen kurumsal ve büyüme odaklı ekip" },
+        { "value": "24/7", "label": "Kritik süreçlerde operasyonel görünürlük" }
+      ]
+    },
+    "finalCta": {
+      "primary": "Projenizi başlatın",
+      "secondary": "Hizmetlerimizi inceleyin"
+    }
+  },
+  "servicesPage": {
+    "title": "Hizmetlerimiz",
+    "intro": "Labsoy, teknoloji, yazılım, yapay zekâ ve otomasyon alanında uçtan uca kurumsal çözümler sunar.",
+    "heroTitleBefore": "Kurumsal",
+    "heroTitleAccent": "Hizmetler",
+    "catalogSectionTitle": "Hizmet kapsamı",
+    "catalogSectionLead": "Beş ana alanda planlama, geliştirme ve sürekli destek.",
+    "pillarsTitle": "Neden Labsoy?",
+    "pillarsLead": "Kurumsal ölçek için tasarlanmış, şeffaf ve ölçülebilir teslim modeli.",
+    "pillars": [
+      {
+        "title": "Hızlı devreye alma",
+        "body": "Kısa döngülerle hızlı prototipten canlı ortama geçiş."
+      },
+      {
+        "title": "Güvenilir mimari",
+        "body": "Güvenlik, izlenebilirlik ve uyum odaklı sistem tasarımı."
+      },
+      {
+        "title": "Ölçeklenebilir teslimat",
+        "body": "Büyüyen ekipler ve iş yüküyle uyumlu sürdürülebilir geliştirme."
+      }
+    ],
+    "ctaTitleBefore": "Birlikte",
+    "ctaTitleAccent": "başlayalım",
+    "ctaLead": "Doğru servis kombinasyonunu birlikte netleştirelim; demo veya teklif için yazın.",
+    "groupLead": {
+      "software": "Kurumsal yazılım ve platform teslimi",
+      "ai": "Yapay zekâ ile karar, iletişim ve verimlilik",
+      "automation": "Süreç otomasyonu ve operasyon standardizasyonu",
+      "infrastructure": "Altyapı, güvenlik ve ölçeklenebilirlik",
+      "growth": "Dijital büyüme, görünürlük ve performans"
+    },
+    "groups": {
+      "software": "Teknoloji ve Yazılım Çözümleri",
+      "ai": "Yapay Zekâ ve Akıllı Sistemler",
+      "automation": "Otomasyon ve İş Süreçleri",
+      "infrastructure": "Altyapı ve Güvenlik",
+      "growth": "Dijital Büyüme ve Marka"
+    },
+    "catalog": {
+      "softwareSolutions": "Teknoloji ve Yazılım Çözümleri",
+      "aiSmartSystems": "Yapay Zekâ (AI) ve Akıllı Sistemler",
+      "aiAgentDevelopment": "AI Ajan Geliştirme ve Eğitim Hizmetleri",
+      "roboticEmbedded": "Robotik Kodlama ve Gömülü Sistemler",
+      "automationN8n": "İş Süreçleri Otomasyonu ve n8n Entegrasyonları",
+      "erp": "ERP ve Kurumsal Kaynak Planlama Sistemleri",
+      "hostingSsl": "Sunucu, Hosting ve SSL Altyapı Hizmetleri",
+      "gameSystems": "Oyun Yazılımı ve Sistem Yazılımları Geliştirme",
+      "webDesign": "Web Sitesi Tasarımı ve Geliştirme",
+      "animation": "Animasyon ve Çizgi Film Üretimi",
+      "socialMedia": "Sosyal Medya ve İçerik Yönetimi",
+      "digitalAds": "Dijital Reklamcılık ve Performans Pazarlama",
+      "brandManagement": "Marka Yönetimi ve Konumlandırma",
+      "seo": "SEO Hizmetleri",
+      "aiEmployee": "AI Tabanlı Dijital Çalışan Çözümleri",
+      "noCodeAgent": "No-Code / Low-Code AI Ajan Geliştirme Platformu",
+      "enterpriseAiPlatform": "Kurumsal AI Otomasyon Platformu",
+      "aiDecisionSupport": "AI Destekli İş Analizi ve Karar Destek Sistemleri",
+      "personalizedChatbot": "Kişiselleştirilmiş AI Chatbot ve Müşteri Deneyimi",
+      "salesMarketingAutomation": "AI Destekli Satış ve Pazarlama Otomasyonu",
+      "bigData": "Veri Analitiği ve Büyük Veri Çözümleri",
+      "cyberSecurity": "AI Destekli Siber Güvenlik ve Tehdit Analizi",
+      "iot": "IoT ve Akıllı Sistem Entegrasyonları",
+      "digitalTransformation": "Kurumsal Dijital Dönüşüm Danışmanlığı",
+      "saas": "SaaS Ürün Geliştirme",
+      "apiIntegration": "API Geliştirme ve Sistem Entegrasyonu",
+      "mediaAutomation": "AI Destekli İçerik ve Medya Otomasyonu",
+      "simulationEducation": "AI Destekli Simülasyon ve Eğitim Teknolojileri",
+      "ecommerceAi": "E-Ticaret Teknolojileri ve AI Destekli Dönüşüm"
+    }
+  },
+  "process": {
+    "title": "Nasıl çalışıyoruz?",
+    "steps": [
+      { "title": "Analiz ve keşif", "body": "İş modelinizi, süreçlerinizi ve ihtiyaçlarınızı ayrıntılı analiz ederiz." },
+      { "title": "Strateji ve planlama", "body": "Size özel en uygun yazılım, AI ve otomasyon çözümlerini planlarız." },
+      { "title": "Geliştirme ve entegrasyon", "body": "Tüm sistemleri geliştirir ve mevcut altyapıya entegre ederiz." },
+      { "title": "Test ve optimizasyon", "body": "Sistem performansını test eder, maksimum verim için optimize ederiz." },
+      { "title": "Yayın ve sürekli destek", "body": "Projeyi yayımlarız; sürekli destek ve geliştirme hizmeti sunarız." }
+    ]
+  },
+  "cta": {
+    "title": "Sıradakini birlikte inşa edelim",
+    "subtitle": "Keşiften üretime: güvenilir yazılım, AI ve otomasyonu net bir yol haritasıyla hayata geçiriyoruz.",
+    "actions": {
+      "consultation": "Ücretsiz danışmanlık al",
+      "startProject": "Projeni başlat",
+      "requestDemo": "Demo talep et",
+      "getQuote": "Teklif al",
+      "contactNow": "Bizimle iletişime geç",
+      "quickStart": "Hemen başla",
+      "setupSystem": "Sistemini kur",
+      "automateBusiness": "İşini otomatikleştir"
+    }
+  },
+  "panel": {
+    "title": "Labsoy Panel ile tüm süreçlerini yönet",
+    "items": [
+      "Tüm projelerinizi tek yerden yönetebilirsiniz.",
+      "AI ajanlarınızı kontrol edebilirsiniz.",
+      "Otomasyon sistemlerinizi izleyebilirsiniz.",
+      "Raporlara ve analizlere anlık erişebilirsiniz."
+    ],
+    "signIn": "Giriş yap",
+    "signUp": "Kayıt ol"
+  },
+  "contactPage": {
+    "title": "İletişim",
+    "detailsTitle": "İletişim bilgileri",
+    "intro": "Yazılım, yapay zekâ ve otomasyon hedefleriniz için yüksek etkili bir yol haritası oluşturmak üzere Labsoy ile iletişime geçin.",
+    "phoneLabel": "Telefon",
+    "phoneValue": "+90 552 404 4224",
+    "emailLabel": "E-posta",
+    "emailValue": "info@labsoy.com"
+  },
+  "leadModal": {
+    "closeAria": "Kampanyayı kapat",
+    "ribbon": "Özel teklif — sınırlı süre",
+    "formTitle": "Ücretsiz danışmanlık talebi",
+    "headline": "Hemen başlayalım mı?",
+    "sub": "Ücretsiz bir ön görüşme alın: yazılım, yapay zekâ ve otomasyonla işinizi nasıl büyütebileceğimizi keşfedin.",
+    "leftKicker": "Ayrılmadan önce",
+    "leftTitle": "Labsoy ile daha akıllı mı ilerleyelim?",
+    "leftBody": "Baskısız bir çağrı planlayın. Hedefler, kapsam ve sonraki adımlar için net, uygulanabilir yönlendirme sağlayalım.",
+    "leftBullet1": "Uygunluk ve yol haritası ücretsiz değerlendirmesi",
+    "leftBullet2": "Özel geri dönüş ve şeffaf sonraki adımlar",
+    "leftEmailLabel": "E-posta",
+    "leftPhoneLabel": "Telefon",
+    "primaryCta": "Danışmanlık isteğini gönder",
+    "secondaryCta": "Hizmetleri incele",
+    "trust1": "Ücretsiz ön görüşme",
+    "trust2": "Yükümlülük yok",
+    "fieldName": "Ad soyad",
+    "fieldCompany": "Şirket",
+    "fieldEmail": "İş e-postası",
+    "fieldService": "İlgi alanı",
+    "fieldServicePlaceholder": "Bir hizmet seçin",
+    "serviceOptions": [
+      { "value": "ai", "label": "Yapay zekâ ve makine öğrenmesi" },
+      { "value": "automation", "label": "Otomasyon ve entegrasyon" },
+      { "value": "software", "label": "Özel yazılım ve platformlar" },
+      { "value": "cloud", "label": "Bulut ve altyapı" },
+      { "value": "security", "label": "Güvenlik ve uyum" },
+      { "value": "creative", "label": "Yaratıcı ve video üretimi" },
+      { "value": "data", "label": "Veri ve analitik" },
+      { "value": "other", "label": "Diğer / emin değilim" }
+    ],
+    "subjectLine": "labsoy.com danışmanlık talebi",
+    "errorGeneric": "Lütfen aşağıdaki alanları kontrol edin.",
+    "errorEmail": "Lütfen geçerli bir e-posta girin."
+  },
+  "chat": {
+    "openAria": "Söhbeti aç",
+    "title": "Labsoy Asistanı",
+    "closeAria": "Söhbeti kapat",
+    "placeholder": "Labsoy hakkında her şeyi sorun…",
+    "sendAria": "Mesaj gönder",
+    "launcherLabel": "AI"
+  },
+  "footer": {
+    "srTitle": "Alt bilgi",
+    "legalNavAria": "Yasal bağlantılar",
+    "newsletterTitle": "Labsoy ile bağlantıda kalın",
+    "newsletterBody": "Ürün güncellemeleri, teknik notlar ve sektör içgörüleri.",
+    "colPlatform": "Platform",
+    "colSolutions": "Çözümler",
+    "colResources": "Kaynaklar",
+    "colCompany": "Şirket",
+    "langEnglish": "İngilizce",
+    "langTurkish": "Türkçe",
+    "rights": "Tüm hakları saklıdır.",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Kullanım koşulları",
+    "socialAria": {
+      "instagram": "Instagram",
+      "pinterest": "Pinterest",
+      "x": "X",
+      "youtube": "YouTube",
+      "tiktok": "TikTok",
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn",
+      "whatsapp": "WhatsApp"
+    },
+    "links": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetler",
+      "about": "Hakkımızda",
+      "contact": "İletişim"
+    },
+    "services": {
+      "ai": "AI çözümleri",
+      "cloud": "Bulut altyapısı",
+      "security": "Siber güvenlik",
+      "platform": "AI otomasyon platformu",
+      "mobile": "E-ticaret teknolojileri",
+      "analytics": "Veri analitiği"
+    }
+  },
+  "status": {
+    "online": "Çevrimiçi",
+    "offline": "Çevrimdışı",
+    "unknown": "--"
+  },
+  "seo": {
+    "home": {
+      "title": "Labsoy Technologies | AI, Otomasyon ve Kurumsal Yazılım",
+      "description": "Labsoy, kurumlar için ölçeklenebilir AI, otomasyon ve yazılım sistemleri geliştirir. Verimliliği artırın, maliyetleri düşürün, güvenle büyüyün.",
+      "keywords": "Labsoy, yapay zekâ çözümleri, kurumsal otomasyon, yazılım geliştirme, dijital dönüşüm, SaaS, sistem entegrasyonu"
+    },
+    "about": {
+      "title": "Labsoy Hakkında | Dijital İş Mühendisliği",
+      "description": "Labsoy'un yazılım mühendisliği, yapay zekâ ve otomasyonu tek bir modelde birleştirerek dönüşümü nasıl hız ve netlikle hayata geçirdiğini keşfedin.",
+      "keywords": "Labsoy hakkında, yapay zekâ ve otomasyon ortağı, kurumsal yazılım mühendisliği, dijital dönüşüm teslimi, operasyonel modernizasyon"
+    },
+    "services": {
+      "title": "Labsoy Hizmetleri | AI, Otomasyon, Entegrasyon ve Altyapı",
+      "description": "Labsoy'un AI sistemleri, otomasyon, SaaS, entegrasyon, bulut altyapısı ve siber güvenlik odaklı hizmet portföyünü inceleyin.",
+      "keywords": "AI hizmetleri, otomasyon hizmetleri, SaaS geliştirme, API entegrasyonu, bulut altyapısı, siber güvenlik"
+    },
+    "contact": {
+      "title": "Labsoy İletişim | AI ve otomasyon projenizi başlatın",
+      "description": "Dönüşüm projenizi başlatmak için Labsoy ile iletişime geçin. +90 552 404 4224 numarasını arayın veya info@labsoy.com adresine yazın.",
+      "keywords": "Labsoy iletişim, AI proje danışmanlığı, otomasyon projesi, yazılım partneri"
+    },
+    "portfolio": {
+      "title": "Labsoy Portfolyo | Yazılım, AI ve yaratıcı teslimatlar",
+      "description": "Kurumsal yazılım, AI sistemleri, otomasyon ve yaratıcı üretimde seçilmiş Labsoy projelerini inceleyin.",
+      "keywords": "Labsoy portfolyo, kurumsal yazılım projeleri, AI vaka çalışmaları, otomasyon teslimi, yaratıcı stüdyo"
+    }
+  }
+}

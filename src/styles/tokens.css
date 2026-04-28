@@ -1,0 +1,60 @@
+:root {
+  --color-surface: hsl(0 0% 3%);
+  --color-surface-soft: hsl(0 0% 6%);
+  --color-surface-raised: hsl(0 0% 8%);
+  --color-text: hsl(0 0% 98%);
+  --color-text-muted: hsl(220 10% 65%);
+  --color-border: hsl(220 20% 20%);
+  --color-border-subtle: hsl(220 20% 15%);
+  --color-primary: hsl(160 84% 45%);
+  --color-primary-hover: hsl(160 84% 52%);
+  --color-primary-muted: hsl(160 84% 45% / 0.2);
+  --color-accent: hsl(43 96% 56%);
+  --color-accent-foreground: hsl(0 0% 0%);
+  --color-ring: hsl(160 84% 45%);
+  --color-input-bg: hsl(0 0% 12%);
+  --color-secondary: hsl(220 20% 15%);
+  --color-secondary-foreground: hsl(0 0% 98%);
+  --color-muted-bg: hsl(0 0% 10%);
+  --color-elevate-1: rgba(255, 255, 255, 0.04);
+  --color-elevate-2: rgba(255, 255, 255, 0.09);
+  --color-user-bubble: hsl(160 84% 45%);
+  --color-user-bubble-text: hsl(0 0% 100%);
+  --color-assistant-bubble-bg: hsl(0 0% 12%);
+  --color-assistant-bubble-text: hsl(0 0% 98%);
+
+  --font-size-xs: clamp(0.75rem, 0.72rem + 0.1vw, 0.8125rem);
+  --font-size-sm: clamp(0.875rem, 0.84rem + 0.12vw, 0.95rem);
+  --font-size-md: clamp(1rem, 0.96rem + 0.16vw, 1.1rem);
+  --font-size-lg: clamp(1.25rem, 1.15rem + 0.35vw, 1.5rem);
+  --font-size-xl: clamp(1.6rem, 1.4rem + 0.9vw, 2.3rem);
+
+  --space-2xs: clamp(0.25rem, 0.22rem + 0.16vw, 0.4rem);
+  --space-xs: clamp(0.5rem, 0.44rem + 0.2vw, 0.7rem);
+  --space-sm: clamp(0.7rem, 0.6rem + 0.25vw, 0.95rem);
+  --space-md: clamp(0.95rem, 0.84rem + 0.35vw, 1.25rem);
+  --space-lg: clamp(1.25rem, 1.08rem + 0.55vw, 1.75rem);
+  --space-xl: clamp(1.8rem, 1.4rem + 1vw, 2.6rem);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-pill: 999px;
+  --radius-message: 1rem;
+
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 10px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.5);
+
+  --container-max: min(112rem, 100vw - 2 * var(--space-lg));
+  --content-max: min(72rem, 100vw - 2 * var(--space-lg));
+  --chat-messages-height: clamp(16rem, 45vh, 26rem);
+  --header-height-max: 49px;
+  --header-height-inner: 48px;
+  --header-height-min: 48px;
+  --header-inline-padding: clamp(1rem, 3vw, 3rem);
+  --header-offset: calc(var(--header-height-max) + var(--space-md));
+
+  --motion-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-fast: 180ms;
+}
