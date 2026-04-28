@@ -1,5 +1,8 @@
-const API_URL = import.meta.env.VITE_OLLAMA_API_URL;
-const MODEL = import.meta.env.VITE_OLLAMA_MODEL;
+const API_URL = (import.meta.env.VITE_OLLAMA_API_URL || "").trim().replace(/\/$/, "");
+const MODEL = (import.meta.env.VITE_OLLAMA_MODEL || "").trim();
+const AI_CONFIGURED = Boolean(API_URL && MODEL);
+const AI_CONFIG_ERROR =
+  "AI chat is not configured. Define VITE_OLLAMA_API_URL and VITE_OLLAMA_MODEL in build environment variables.";
 
 const readErrorMessage = async (res) => {
   try {
@@ -12,6 +15,10 @@ const readErrorMessage = async (res) => {
 };
 
 export const chat = async (message) => {
+  if (!AI_CONFIGURED) {
+    throw new Error(AI_CONFIG_ERROR);
+  }
+
   const res = await fetch(`${API_URL}/api/chat`, {
     method: "POST",
     headers: {
@@ -37,6 +44,10 @@ export const chat = async (message) => {
 };
 
 export const checkHealth = async () => {
+  if (!AI_CONFIGURED) {
+    return { status: "offline" };
+  }
+
   const res = await fetch(`${API_URL}/api/tags`);
   if (!res.ok) {
     return { status: "offline" };

@@ -35,6 +35,8 @@ jobs:
         env:
           VITE_BASE_PATH: ${{ vars.PAGES_BASE_PATH != '' && vars.PAGES_BASE_PATH || '/' }}
           VITE_PUBLIC_SITE_URL: ${{ vars.VITE_PUBLIC_SITE_URL }}
+          VITE_OLLAMA_API_URL: ${{ vars.VITE_OLLAMA_API_URL != '' && vars.VITE_OLLAMA_API_URL || secrets.VITE_OLLAMA_API_URL }}
+          VITE_OLLAMA_MODEL: ${{ vars.VITE_OLLAMA_MODEL != '' && vars.VITE_OLLAMA_MODEL || secrets.VITE_OLLAMA_MODEL }}
         run: npm run build
 
       - name: SPA fallback for GitHub Pages

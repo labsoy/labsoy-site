@@ -47,6 +47,18 @@
   animation: lead-modal-up 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
+.lead-modal__sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 @media (min-width: 768px) {
   .lead-modal__content {
     max-height: min(90vh, 46rem);

@@ -164,7 +164,17 @@ export const LeadCaptureModal = memo(function LeadCaptureModal() {
     >
       <Dialog.Portal>
         <Dialog.Overlay className="lead-modal__overlay" />
-        <Dialog.Content className="lead-modal__content" aria-describedby={`${id}-desc`}>
+        <Dialog.Content
+          className="lead-modal__content"
+          aria-labelledby={`${id}-title`}
+          aria-describedby={`${id}-desc`}
+        >
+          <Dialog.Title className="lead-modal__sr-only" id={`${id}-title`}>
+            {t("leadModal.formTitle")}
+          </Dialog.Title>
+          <Dialog.Description className="lead-modal__sr-only" id={`${id}-desc`}>
+            {t("leadModal.sub")}
+          </Dialog.Description>
           <div className="lead-modal__ribbon">
             {t("leadModal.ribbon")}
             <Dialog.Close asChild>
@@ -199,13 +209,13 @@ export const LeadCaptureModal = memo(function LeadCaptureModal() {
               <div className="lead-modal__icon-row">
                 <IconTarget className="lead-modal__target" />
                 <div>
-                  <Dialog.Title className="lead-modal__form-title" id={`${id}-title`}>
+                  <p className="lead-modal__form-title" aria-hidden="true">
                     {t("leadModal.formTitle")}
-                  </Dialog.Title>
+                  </p>
                   <p className="lead-modal__headline">{t("leadModal.headline")}</p>
                 </div>
               </div>
-              <p className="lead-modal__sub" id={`${id}-desc`}>
+              <p className="lead-modal__sub" aria-hidden="true">
                 {t("leadModal.sub")}
               </p>
               <form className="lead-modal__form" onSubmit={handleSubmit} noValidate>
