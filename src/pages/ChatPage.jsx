@@ -61,6 +61,10 @@ export const ChatPage = () => {
   }, [isOpen, messages]);
 
   useEffect(() => {
+    if (!isOpen) {
+      return undefined;
+    }
+
     let active = true;
 
     const runHealthCheck = async () => {
@@ -83,7 +87,7 @@ export const ChatPage = () => {
       active = false;
       clearInterval(timer);
     };
-  }, []);
+  }, [isOpen]);
 
   const handleSend = useCallback(async () => {
     const trimmed = input.trim();
