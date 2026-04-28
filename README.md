@@ -103,22 +103,23 @@ Deployments run from [`.github/workflows/github-pages.yml`](.github/workflows/gi
 1. GitHub → **Settings** → **Pages** → **Build and deployment** → Source: **GitHub Actions**.
 2. After the first successful run, the site URL appears under **Pages** (for this org/repo pattern: `https://labsoy.github.io/labsoy-site/`).
 
-### Base path (default vs custom domain)
+### Base path
 
-- **Default (project site):** the workflow sets `VITE_BASE_PATH` to `/<repository-name>/` so assets and `react-router` match GitHub’s URL layout.
-- **Custom domain at the apex** (e.g. `https://labsoy.com`): add a repository **variable** `PAGES_BASE_PATH` with the value `/` (and configure the custom domain and DNS under **Pages** as GitHub documents). Set repository **variable** `VITE_PUBLIC_SITE_URL` to `https://labsoy.com` (no trailing slash) so production builds bake the correct canonical / Open Graph origin; if unset, URLs follow the live `window.location.origin` at runtime.
+- **Default:** the workflow sets `VITE_BASE_PATH` to `/` (root), which is correct for custom-domain hosting such as `https://labsoy.com` / `https://www.labsoy.com`.
+- **Optional override:** set repository variable `PAGES_BASE_PATH` only if you intentionally deploy under a subpath.
+- Set repository variable `VITE_PUBLIC_SITE_URL` (for example `https://www.labsoy.com`) so canonical/Open Graph URLs use the correct origin.
 
 `public/.nojekyll` is included so GitHub Pages does not ignore paths that look like Jekyll reserves.
 
-### Local check with the same base as GitHub
+### Local check with root base
 
 ```bash
-set VITE_BASE_PATH=/labsoy-site/
+set VITE_BASE_PATH=/
 npm run build
 npm run preview
 ```
 
-(PowerShell: `$env:VITE_BASE_PATH="/labsoy-site/"; npm run build`)
+(PowerShell: `$env:VITE_BASE_PATH="/"; npm run build`)
 
 ## Scripts
 
@@ -138,7 +139,7 @@ Variables consumed by the app must be prefixed with `VITE_` to be exposed to the
 |----------|---------|
 | `VITE_OLLAMA_API_URL` | Base URL for a compatible Ollama HTTP API (e.g. `http://127.0.0.1:11434`) |
 | `VITE_OLLAMA_MODEL` | Model name passed to the chat API |
-| `VITE_BASE_PATH` | Vite `base` (e.g. `/labsoy-site/` for GitHub project Pages); omit for `/` locally |
+| `VITE_BASE_PATH` | Vite `base`; default `/` in the workflow |
 | `VITE_PUBLIC_SITE_URL` | Optional canonical site origin (no trailing slash), e.g. `https://labsoy.com` for production SEO |
 
 If these are unset, AI chat features that depend on them will not work until configured. Create a `.env` file in the project root (gitignored) and define the variables there.
