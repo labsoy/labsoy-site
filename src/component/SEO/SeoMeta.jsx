@@ -1,6 +1,10 @@
 import { useEffect } from "react";
 
-const BASE_URL = "https://labsoy.com";
+const siteOrigin = () =>
+  (import.meta.env.VITE_PUBLIC_SITE_URL && String(import.meta.env.VITE_PUBLIC_SITE_URL).replace(/\/$/, "")) ||
+  (typeof window !== "undefined" ? window.location.origin : "https://labsoy.com");
+
+const publicBasePath = () => import.meta.env.BASE_URL.replace(/\/$/, "");
 
 const upsertMeta = (selector, attributes) => {
   let element = document.head.querySelector(selector);
@@ -48,7 +52,10 @@ export const SeoMeta = ({
   schema = null
 }) => {
   useEffect(() => {
-    const url = `${BASE_URL}${path}`;
+    const origin = siteOrigin();
+    const base = publicBasePath();
+    const pathNorm = path.startsWith("/") ? path : `/${path}`;
+    const url = base ? `${origin}${base}${pathNorm}` : `${origin}${pathNorm}`;
     document.title = title;
 
     upsertMeta('meta[name="description"]', { name: "description", content: description });
