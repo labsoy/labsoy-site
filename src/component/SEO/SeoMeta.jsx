@@ -56,7 +56,7 @@ export const SeoMeta = ({
     const base = publicBasePath();
     const pathNorm = path.startsWith("/") ? path : `/${path}`;
     const url = base ? `${origin}${base}${pathNorm}` : `${origin}${pathNorm}`;
-    document.title = title;
+    document.title = "Labsoy Technologies";
 
     upsertMeta('meta[name="description"]', { name: "description", content: description });
     upsertMeta('meta[name="keywords"]', { name: "keywords", content: keywords });
