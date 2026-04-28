@@ -1,8 +1,7 @@
 const API_URL = (import.meta.env.VITE_OLLAMA_API_URL || "").trim().replace(/\/$/, "");
-const MODEL = (import.meta.env.VITE_OLLAMA_MODEL || "").trim();
-const AI_CONFIGURED = Boolean(API_URL && MODEL);
+const AI_CONFIGURED = Boolean(API_URL);
 const AI_CONFIG_ERROR =
-  "AI chat is not configured. Define VITE_OLLAMA_API_URL and VITE_OLLAMA_MODEL in build environment variables.";
+  "AI chat is not configured. Define VITE_OLLAMA_API_URL in build environment variables.";
 
 const readErrorMessage = async (res) => {
   try {
@@ -25,14 +24,7 @@ export const chat = async (message) => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: MODEL,
-      stream: false,
-      messages: [
-        {
-          role: "user",
-          content: message,
-        },
-      ],
+      message,
     }),
   });
 
